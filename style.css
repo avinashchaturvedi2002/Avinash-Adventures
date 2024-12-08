@@ -89,3 +89,31 @@ background-image: url("waterfall.jpg");
   font-size: 5rem;
   
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 6vh;
+    letter-spacing: 0.3vw;
+  }
+
+  .background {
+    transform: translateZ(-20vw) scale(3);
+  }
+
+  .foreground {
+    transform: translateZ(-13vw) scale(2) translateY(3%);
+  }
+
+  .bg {
+    height: 35vh;
+  }
+
+  .para {
+    padding: 2vh;
+    font-size: small;
+  }
+
+  .headings {
+    font-size: 2.5rem;
+  }
+}
